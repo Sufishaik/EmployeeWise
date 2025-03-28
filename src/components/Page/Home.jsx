@@ -5,6 +5,7 @@ import TextField from '@mui/material/TextField';
 
 import Modal from 'react-modal';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 const customStyles = {
     content: {
         top: '50%',
@@ -17,6 +18,7 @@ const customStyles = {
 };
 function Home() {
     const [details, setDetails] = useState([]);
+    const navigate = useNavigate()
     const [modalIsOpen, setIsOpen] = useState(false);
     const [editDetails, setEditDetails] = useState({
         id: 0,
