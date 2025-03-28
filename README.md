@@ -7,7 +7,7 @@ Toast notifications for actions
 
 🛠️ Installation & Setup
 1️⃣ Clone the Repository
-git clone https://github.com/rahulmehta26/employeewise.git
+git clone https://github.com/Sufishaik/EmployeeWise.git
 cd employee-wise
 2️⃣ Install Dependencies
 Frontend
