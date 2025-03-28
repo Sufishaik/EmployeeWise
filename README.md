@@ -1,12 +1,29 @@
-# React + Vite
+🚀 Features
+View user list
+Update user details
+Delete users
+Toast notifications for actions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🛠️ Installation & Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+1️⃣ Clone the Repository
+git clone https://github.com/Sufishaik/EmployeeWise.git
+cd employee-wise
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+2️⃣ Install Dependencies
+Frontend
+npm install
+
+
+
+🏃 Running the Application
+🎨 Frontend (React.js)
+npm run dev
+
+
+🛠️ Technologies Used
+Frontend: React, Tailwind, Bootstrap
