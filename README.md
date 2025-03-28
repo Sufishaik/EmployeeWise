@@ -6,6 +6,8 @@ Toast notifications for actions
 
 
 🛠️ Installation & Setup
+
+
 1️⃣ Clone the Repository
 git clone https://github.com/Sufishaik/EmployeeWise.git
 cd employee-wise
