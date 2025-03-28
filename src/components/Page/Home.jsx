@@ -101,7 +101,7 @@ function Home() {
     return (
         <>
             <div >
-                <div >
+                <div className='overflow-hidden'>
                     <table class="table" style={{ marginTop: "5rem" }}>
                         <thead className=''>
                             <tr className=''>
@@ -162,7 +162,7 @@ function Home() {
                     style={customStyles}
                     contentLabel="Example Modal"
                 >
-                    <div className='relative w-[80vw]'>
+                    <div className='relative w-[80vw] '>
                         <div>
 
                             <div className='text-center mb-[2rem] flex items-center justify-between'>
@@ -175,7 +175,7 @@ function Home() {
                         <div className=' flex flex-col gap-5 items-center justify-center text-center'>
                             <Stack
                                 component="form"
-                                sx={{ width: '55ch' }}
+                                sx={{ width: '25vw', minWidth: '60vw' }}
                                 spacing={2}
                                 noValidate
                                 autoComplete="off"
