@@ -9,12 +9,15 @@ Toast notifications for actions
 1️⃣ Clone the Repository
 git clone https://github.com/Sufishaik/EmployeeWise.git
 cd employee-wise
+
+
+
 2️⃣ Install Dependencies
 Frontend
 npm install
 
 
-install
+
 🏃 Running the Application
 🎨 Frontend (React.js)
 npm run dev
