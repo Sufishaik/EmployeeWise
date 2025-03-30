@@ -19,7 +19,7 @@ export const updateUser = createAsyncThunk("user/updateUser", async (userData) =
 
 export const deleteUser = createAsyncThunk("user/deleteUser", async (id) => {
     await fetch(`${API_URL}/${id}`, { method: "DELETE" });
-    return id; // Return deleted user ID
+    return id;
 });
 
 

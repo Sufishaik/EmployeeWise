@@ -17,7 +17,6 @@ function Home() {
     const dispatch = useDispatch();
     const { userData } = useSelector((state) => state.user);
 
-    console.log("users", userData)
     const checkAuth = () => {
         const token = localStorage.getItem("authToken");
 
@@ -55,15 +54,10 @@ function Home() {
         dispatch(setUsers(updatedUsers));
         toast.success("Deleted Successfully")
     };
-    const handleFetchDetails = async () => {
-        if (!hasFetched.current) {
-            hasFetched.current = true;
-            fetchDetails(currentPage);
-        }
-    };
+
     useEffect(() => {
-        handleFetchDetails();
-    }, [])
+        fetchDetails(currentPage);
+    }, [currentPage])
 
     useEffect(() => {
         checkAuth();

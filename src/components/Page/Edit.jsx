@@ -40,14 +40,17 @@ function Edit() {
                 }),
             });
             if (!response.ok) throw new Error("Failed to update user");
+
             const updatedData = await response.json();
             const updatedUsers = userData.map((user) =>
                 user.id === fetchIdData.id ? { ...user, ...updatedData } : user
             );
 
+            toast.success("Updates Successfully, wait 3 seconds you will redirect to home page");
             dispatch(setUsers(updatedUsers))
-            navigate("/")
-            toast.success("Updates Successfully");
+            setTimeout(() => {
+                navigate("/");
+            }, 3000);
         } catch (err) {
             console.log("error update", err)
         }
@@ -58,19 +61,19 @@ function Edit() {
 
             <div className='relative w-[80vw] '>
                 <div>
-                    <div className='text-center mb-[2rem] flex items-center justify-start ml-[2rem] gap-[1rem]'>
+                    <div className='text-center  mb-[2rem] flex items-center justify-start ml-[2rem] gap-[1rem]'>
                         <Link to={`/`}>
-                            <svg style={{ color: 'white', marginBottom: "0.5rem" }} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                            <svg style={{ color: 'white', marginBottom: "0.5rem", marginTop: "1rem" }} xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
                             </svg>
                         </Link>
-                        <p className='text-[25px] text-center font-bold text-white'>Edit Details</p>
+                        <p className='text-[20px] lg:text-[25px] text-center font-bold text-white ' style={{ marginTop: '1rem' }}>Edit Details</p>
                     </div>
                 </div>
                 <div className=' flex flex-col gap-5 items-center justify-center text-center'>
                     <Stack
                         component="form"
-                        sx={{ width: '25vw', minWidth: '60vw', }}
+                        sx={{ width: '25vw', minWidth: '60vw' }}
                         spacing={2}
                         noValidate
                         autoComplete="off"
@@ -78,6 +81,9 @@ function Edit() {
                         <TextField
                             id="outlined-controlled"
                             size="small"
+                            InputProps={{
+                                style: { color: "white" }
+                            }}
                             value={fetchIdData?.first_name}
                             onChange={(e) => {
                                 setFetchIdData((prev) => ({
@@ -89,7 +95,9 @@ function Edit() {
                         />
                         <TextField
                             id="filled-hidden-label-normal"
-
+                            InputProps={{
+                                style: { color: "white" }
+                            }}
                             size="small"
                             value={fetchIdData?.last_name}
                             onChange={(e) => {
@@ -102,7 +110,9 @@ function Edit() {
                         />
                         <TextField
                             id="filled-hidden-label-normal"
-
+                            InputProps={{
+                                style: { color: "white" }
+                            }}
                             size="small"
                             value={fetchIdData?.email}
                             onChange={(e) => {
