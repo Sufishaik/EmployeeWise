@@ -28,6 +28,7 @@ function Edit() {
     }, [id])
     const handleUpdate = async (e) => {
         e.preventDefault()
+        if (!fetchIdData?.first_name || !fetchIdData?.last_name || !fetchIdData?.email) return toast.error("Please fill all the fields")
         if (!fetchIdData) return;
         try {
             const response = await fetch(`https://reqres.in/api/users/${fetchIdData?.id}`, {
