@@ -27,4 +27,4 @@ npm run dev
 
 
 🛠️ Technologies Used
-Frontend: React, Javascript, Redux Toolkit Tailwind CSS, Bootstrap
+Frontend: React, Javascript, Redux Toolkit, Tailwind CSS, Bootstrap
