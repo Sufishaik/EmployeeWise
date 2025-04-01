@@ -24,7 +24,7 @@ Frontend
 npm install
 npm run dev
 
-The application will be accessible at [http://localhost:3000](http://localhost:3000).
+The application will be accessible at [http://localhost:5173](http://localhost:5173).
 
 ---
 
