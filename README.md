@@ -11,25 +11,18 @@ This React application integrates with the Reqres API to provide basic user mana
 
 ## Installation and Setup
 
-### Prerequisites
-Ensure the following are installed on your system:
-- [Node.js](https://nodejs.org/) (v16 or later)
-- npm or yarn (Package manager)
-
-### Steps to Install and Run Locally
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/Sufishaik/EmployeeWise.git
+1️⃣ Clone the Repository
+git clone https://github.com/Sufishaik/EmployeeWise.git
 
 2. Install dependencies:
     ```bash
     npm install
     ```
 
-3. Start the development server:
-    ```bash
-    npm run dev
-    ```
+2️⃣ Install Dependencies
+Frontend
+npm install
+npm run dev
 
 The application will be accessible at [http://localhost:3000](http://localhost:3000).
 
