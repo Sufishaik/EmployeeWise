@@ -33,7 +33,7 @@ The application will be accessible at [http://localhost:3000](http://localhost:3
 This application can be deployed on (https://employeewiseglobal.netlify.app/).
 
 ### Live Demo
-The live demo of the deployed application can be found [here](https://vercel.com/).
+The live demo of the deployed application can be found [here]((https://www.netlify.com)).
 
 ## API Endpoints Used
 
@@ -66,4 +66,4 @@ The live demo of the deployed application can be found [here](https://vercel.com
 ---
 
 ## Contact
-For queries or support, please contact: mahajnnchikt@gmail.com
+For queries or support, please contact: shaikhsufiyan174@gmail.com
