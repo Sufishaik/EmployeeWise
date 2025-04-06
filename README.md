@@ -24,16 +24,16 @@ Frontend
 npm install
 npm run dev
 
-The application will be accessible at [http://localhost:3000](http://localhost:3000).
+The application will be accessible at [http://localhost:5173](http://localhost:5173).
 
 ---
 
 ## Deployment
 
-This application can be deployed on (https://employeewiseglobal.netlify.app/).
+This application can be deployed on https://www.netlify.com.
 
 ### Live Demo
-The live demo of the deployed application can be found [here](https://vercel.com/).
+The live demo of the deployed application can be found (https://employeewiseglobal.netlify.app/).
 
 ## API Endpoints Used
 
@@ -66,4 +66,4 @@ The live demo of the deployed application can be found [here](https://vercel.com
 ---
 
 ## Contact
-For queries or support, please contact: mahajnnchikt@gmail.com
+For queries or support, please contact: shaikhsufiyan174@gmail.com
