@@ -30,10 +30,10 @@ The application will be accessible at [http://localhost:5173](http://localhost:5
 
 ## Deployment
 
-This application can be deployed on (https://employeewiseglobal.netlify.app/).
+This application can be deployed on https://www.netlify.com.
 
 ### Live Demo
-The live demo of the deployed application can be found [here]((https://www.netlify.com)).
+The live demo of the deployed application can be found (https://employeewiseglobal.netlify.app/).
 
 ## API Endpoints Used
 
